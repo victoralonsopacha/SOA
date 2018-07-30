@@ -1,0 +1,130 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="factura.css" ?>
+
+<Factura xmlns="http://www.w3.org/1999/xhtml">
+
+    <div id="main-container">
+
+        <div id="cabecera">
+            <div id="imagen"><img src="logo.jpg" width="120px" /></div>
+
+            <table id="tablacabecera">
+                <!--<cabecera>-->
+                <tr>
+                    <td colspan="2"><h3>FACTURA 001</h3></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Fecha:<fechaemision>09/Junio/2018</fechaemision></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Facturado:<facturadopor>Supervisor</facturadopor></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Vendedor:<vendedor>Vendedor 1</vendedor></td>
+                </tr>
+                <!--</cabecera>-->
+            </table>
+
+        </div>
+        <div id="vacio1">
+
+        </div>
+        <div id="infoempresa">
+            <table>
+                <!--<infoempresa>-->
+                <th colspan="4">NOMBRE DE LA EMPRESA</th>
+                <tr>
+                    <td colspan="2"><direccion>Direccion empresa</direccion></td>
+                    <td colspan="2">RUC :<ruc>RUC Empresa</ruc></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Telefono: <telefono>Teléfono Empresa</telefono></td>
+                    <td colspan="2">E-mail: <email>Email Empresa</email></td>
+                </tr>
+                <!--</infoempresa>-->
+            </table>
+        </div>
+
+        <div id="vacio3">
+
+        </div>
+        <div id="infocliente">
+            <table>
+                <!--<infocliente>-->
+                <th colspan="4">DATOS DEL CLIENTE</th>
+                <tr>
+                    <td colspan="2"><nombre>Tatiana Montenegro</nombre></td>
+                    <td colspan="2">Telefono: <telefono>0989295810</telefono></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><domicilio>Solanda Sector 4</domicilio></td>
+                    <td colspan="2">E-mail: <email>tatiana.montenegro@epn.edu.ec</email></td>
+                </tr>
+                <!--</infocliente>-->
+            </table>
+        </div>
+
+        <div id="vacio4"></div>
+        <div id="detalle">
+            <table>
+                <!--<detalle>-->
+                <tr>
+                    <th >Cantidad</th>
+                    <th >Descripcion</th>
+                    <th>Precio Unitario</th>
+                    <th>Precio Total</th>
+                </tr>
+                <tr>
+                    <!--<producto>-->
+                    <td><cantidad>2</cantidad></td>
+                    <td><nombre>Cafe Juan Valdez</nombre></td>
+                    <td><punitario>0,60</punitario></td>
+                    <td><precio>1,20</precio></td>
+                    <!--</producto>-->
+                </tr>
+                <tr>
+                    <!--<producto>-->
+                    <td><cantidad>5</cantidad></td>
+                    <td><nombre>Chupetes BOM BOM BUM</nombre></td>
+                    <td><punitario>0,20</punitario></td>
+                    <td><precio>1,00</precio></td>
+                    <!--</producto>-->
+                </tr>
+                <tr>
+                    <!--<producto>-->
+                    <td><cantidad>3</cantidad></td>
+                    <td><nombre>Papas Rufles Crema Cebolla </nombre></td>
+                    <td><punitario>0,45</punitario></td>
+                    <td><precio>1,35</precio></td>
+                    <!--</producto>-->
+                </tr>
+                <!--</detalle>-->
+            </table>
+        </div>
+
+        <div id="vacio2">
+
+        </div>
+        <div id="total">
+            <table>
+                <!--<total>-->
+                <tr>
+
+                    <td>SUBTOTAL :</td>
+                    <td><subtotal>3,55</subtotal></td>
+                </tr>
+                <tr>
+                    <td>IVA 12% :</td>
+                    <td><iva>0.42</iva></td>
+                </tr>
+                <tr>
+                    <td>TOTAL :</td>
+                    <td><total>3,97</total></td>
+                </tr>
+                <!--</total>-->
+            </table>
+        </div>
+    </div>
+
+</Factura>
